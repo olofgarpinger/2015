@@ -1,0 +1,6 @@
+Lecture 2
+
+Scraping
+Access HTML code in Chrome: F12
+Useful libraries in Python: urllib, beautifulsoup, pattern,soupy, LXML
+Python scraping tutorial: htts://github.com/kjam/python-web-scraping-tutorial
