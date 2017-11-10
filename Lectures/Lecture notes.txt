@@ -1,6 +1,8 @@
 Lecture 2
 
 Scraping
-Access HTML code in Chrome: F12
-Useful libraries in Python: urllib, beautifulsoup, pattern,soupy, LXML
-Python scraping tutorial: htts://github.com/kjam/python-web-scraping-tutorial
+* Access HTML code in Chrome: F12
+* Useful tags: heading <h1></h1> ... <h6></h6>, paragraph <p></p>, line break <br>,
+link with attribute <a href="http://www.example.com/">An example link</a>
+* Useful libraries in Python: urllib, beautifulsoup, pattern,soupy, LXML
+* Python scraping tutorial: htts://github.com/kjam/python-web-scraping-tutorial
