@@ -6,3 +6,7 @@ Scraping
 link with attribute <a href="http://www.example.com/">An example link</a>
 * Useful libraries in Python: urllib, beautifulsoup, pattern,soupy, LXML
 * Python scraping tutorial: htts://github.com/kjam/python-web-scraping-tutorial
+
+Lecture 3
+* 1. Ask questions, 2. Get the data, 3. Explore the data, 4. Model the data, 5. Communicate and visualize the data
+* Continue at 00:23:17
