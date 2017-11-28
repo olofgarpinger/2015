@@ -7,8 +7,26 @@ link with attribute <a href="http://www.example.com/">An example link</a>
 * Useful libraries in Python: urllib, beautifulsoup, pattern,soupy, LXML
 * Python scraping tutorial: htts://github.com/kjam/python-web-scraping-tutorial
 
-Lecture 3
+Lecture 3 (Really good lecture!)
 * 1. Ask questions, 2. Get the data, 3. Explore the data, 4. Model the data, 5. Communicate and visualize the data
+* If a plot doesn't start at zero, point it out.
+* Don't use graphics that you don't need.
+* Charts for comparison: Bar charts, line plots (bars for discrete time data),
+  stacked bar charts (proportions).
+* A pie chart is not as effective as a bar chart.
+* Distribution plots: Histogram (play with bin size), density plot (continuous) .
+* Design  (of visualizations) is an exercise of creating many alternatives quickly.
+* Difference bar graph shows the difference between before and after.
+* Sometimes raw numbers is best to communicate results.
+* Good measures: length, position. Bad: color, shape, slope, angle, area, 
+  and intensity.
+* Quantitative data: Position (point), length (bar), slope (line), angle (pie).
+* Ordered data: Area, Intensity
+* Categories: Color, Shape
+* Do not use more than 5-8 colors at once.
+* Do not use rainbow color maps.
+* Instead use greyscale color map with color to highlight data.
+* For good color choices, go to Colorbrewer.
 
 Lecture 4
 * Recommended database: Postgres, which is open source and supports both relational data and JSON
