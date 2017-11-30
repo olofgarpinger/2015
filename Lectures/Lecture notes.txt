@@ -7,7 +7,7 @@ link with attribute <a href="http://www.example.com/">An example link</a>
 * Useful libraries in Python: urllib, beautifulsoup, pattern,soupy, LXML
 * Python scraping tutorial: htts://github.com/kjam/python-web-scraping-tutorial
 
-Lecture 3 (Really good lecture!)
+Lecture 3 - EDA (Really good lecture!)
 * 1. Ask questions, 2. Get the data, 3. Explore the data, 4. Model the data, 5. Communicate and visualize the data
 * If a plot doesn't start at zero, point it out.
 * Don't use graphics that you don't need.
@@ -28,7 +28,17 @@ Lecture 3 (Really good lecture!)
 * Instead use greyscale color map with color to highlight data.
 * For good color choices, go to Colorbrewer.
 
-Lecture 4
+Lecture 4 - SQL, Relational Model/Grammar of Data
 * Recommended database: Postgres, which is open source and supports both relational data and JSON
 * A key should be unique, like an id. An integer is usually suitable.
-* Continue at 00:33:41
+* Nice table with translations: Verb, dplyr, pandas, SQL
+
+Lecture 5 - Statistical models
+* Exponential distribution, memoryless property: f(x) = lambda*exp(-lambda*x), x > 0
+* Parametric distributions are connected in some ways.
+* Poisson distribution for counts of rare events.
+* 68% chance of being inside +-1 sigma if normally distributed
+* 95% chance of being inside +-2 sigma if normally distributed
+* 99% chance of being inside +-3 sigma if normally distributed
+* It is often the case that if you have positive data and take the log, it becomes more normal/nicer to work with.
+* Log-normal distribution: Becomes normally distributed if log is applied on it.
