@@ -42,3 +42,27 @@ Lecture 5 - Statistical models
 * 99% chance of being inside +-3 sigma if normally distributed
 * It is often the case that if you have positive data and take the log, it becomes more normal/nicer to work with.
 * Log-normal distribution: Becomes normally distributed if log is applied on it.
+
+Lecture 6 - Communication and Storytelling (Good lecture on how to present your results orally and written)
+* Giving a speech, two obvious questions to answer: 1. What is the primary goals?, 2. Who cares?
+* Choose and use notation carefully
+* Include a simple, but memorable example, like Linda the bank teller
+* Tell a story with a beginning, a middle, and an end. E.g. ants.
+  * Introduce interesting characters
+  * Put them in a predicament
+  * Resolve the predicament
+  * Leave room for sequels! That is: limitations and future work.
+* If you give a talk, show a lot of visualizations
+* Whenever you can tell a story with your data, do that!
+* Who is your audience, what questions are you answering, why should the audience care, what are the major insights and surprises.
+* Know your audience:
+  * What do they know?
+  * What motivates them, what do they desire?
+  * What experiences do you share, what are common goals?
+  * What insights can you give them? What tools and "magical gifts"?
+* Don't make your audience think too much. Make the main message very explicit!
+* Continue at 49:41
+
+
+
+
