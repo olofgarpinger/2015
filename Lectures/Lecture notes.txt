@@ -43,7 +43,7 @@ Lecture 5 - Statistical models
 * It is often the case that if you have positive data and take the log, it becomes more normal/nicer to work with.
 * Log-normal distribution: Becomes normally distributed if log is applied on it.
 
-Lecture 6 - Communication and Storytelling (Good lecture on how to present your results orally and written)
+Lecture 6 - Communication and Storytelling (Great lecture on how to present your results well)
 * Giving a speech, two obvious questions to answer: 1. What is the primary goals?, 2. Who cares?
 * Choose and use notation carefully
 * Include a simple, but memorable example, like Linda the bank teller
@@ -61,7 +61,21 @@ Lecture 6 - Communication and Storytelling (Good lecture on how to present your 
   * What experiences do you share, what are common goals?
   * What insights can you give them? What tools and "magical gifts"?
 * Don't make your audience think too much. Make the main message very explicit!
-* Continue at 49:41
+* Use surprise to grab the audience's attention.
+* Always keep your audience in mind. Know your audience.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
