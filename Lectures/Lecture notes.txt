@@ -64,11 +64,17 @@ Lecture 6 - Communication and Storytelling (Great lecture on how to present your
 * Use surprise to grab the audience's attention.
 * Always keep your audience in mind. Know your audience.
 
-
-
-
-
-
+Lecture 7 - Bias and Regression
+* Selection bias, is introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved
+  * Always ask where data comes from. What data do you (not) have. 
+* Publication bias. For example only publish papers with p<0.05, not showing non-significant studies
+* The bias of an estimator is how far off it is on average: bias(theta_hat) = E(theta_hat) - theta
+* MSE(theta_hat) = Var(theta_hat) + bias^2(theta_hat)
+* Bonferroni correction, multiple testing
+  * If multiple hypotheses are tested, the chance of a rare event increases, and therefore, the likelihood of incorrectly 
+    rejecting a null hypothesis (i.e., making a Type I error) increases.
+* In statistics, regression toward (or to) the mean is the phenomenon that if a variable is extreme on its first measurement, 
+  it will tend to be closer to the average on its second measurement
 
 
 
