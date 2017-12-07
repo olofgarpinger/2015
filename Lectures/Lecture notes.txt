@@ -76,7 +76,13 @@ Lecture 7 - Bias and Regression
 * In statistics, regression toward (or to) the mean is the phenomenon that if a variable is extreme on its first measurement, 
   it will tend to be closer to the average on its second measurement
 
-
+Lecture 8 - Regression continued
+* Odds = p/(1-p), where p is the probability
+* Odds ratio is the ratio of the odds
+* logit function: logit(p) = ln(p/(1-p)) = beta_0+beta_1*X_1+...+beta_k*X_k
+* Curse of dimensionality: In high dimensions sometimes you have no choice but to do extrapolation, because you can't find
+  enough nearby points.
+* Blessing of dimensionality: More data! Can e.g. run hierarchical methods.
 
 
 
