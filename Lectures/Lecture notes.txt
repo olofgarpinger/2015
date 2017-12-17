@@ -54,7 +54,8 @@ Lecture 6 - Communication and Storytelling (Great lecture on how to present your
   * Leave room for sequels! That is: limitations and future work.
 * If you give a talk, show a lot of visualizations
 * Whenever you can tell a story with your data, do that!
-* Who is your audience, what questions are you answering, why should the audience care, what are the major insights and surprises.
+* Who is your audience, what questions are you answering, why should the audience care, what are the major insights 
+  and surprises.
 * Know your audience:
   * What do they know?
   * What motivates them, what do they desire?
@@ -65,7 +66,8 @@ Lecture 6 - Communication and Storytelling (Great lecture on how to present your
 * Always keep your audience in mind. Know your audience.
 
 Lecture 7 - Bias and Regression
-* Selection bias, is introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved
+* Selection bias, is introduced by the selection of individuals, groups or data for analysis in such a way that proper 
+  randomization is not achieved
   * Always ask where data comes from. What data do you (not) have. 
 * Publication bias. For example only publish papers with p<0.05, not showing non-significant studies
 * The bias of an estimator is how far off it is on average: bias(theta_hat) = E(theta_hat) - theta
@@ -84,7 +86,23 @@ Lecture 8 - Regression continued
   enough nearby points.
 * Blessing of dimensionality: More data! Can e.g. run hierarchical methods.
 
-
+Lecture 9 - Classification, kNN, Dimensionality reduction
+* A Voronoi diagram is a partitioning of a plane into regions based on distance to points in a specific subset of 
+  the plane. That set of points (called seeds, sites, or generators) is specified beforehand, and for each seed 
+  there is a corresponding region consisting of all points closer to that seed than to any other. These regions 
+  are called Voronoi cells. 
+* Machine Learning methods are typically slow during training, but very fast during testing
+  * With 1NN it is the other way around
+* K-fold cross validation
+  * Keep the test data out of the algorithm
+    * Test data has to be completely new and unseen! 
+    * That is: The test data is NOT used to determine parameters!
+  * 5-fold if you have little data, otherwise 10-fold
+* Dimensionality reduction can counter the curse of dimensions
+* Multi-Dimensional Scaling
+  * Find a set of points whose pairwise distances match a given distance matrix
+  * Perform PCA on this set
+  * Preserves the distances in the high-dimensional data in the projection.
 
 
 
