@@ -104,7 +104,32 @@ Lecture 9 - Classification, kNN, Dimensionality reduction
   * Perform PCA on this set
   * Preserves the distances in the high-dimensional data in the projection.
 
-
+Lecture 10 - SVM, Evaluation
+* Perceptron (Neuron model with step function rather than e.g. sigmoid)
+* w^Tx + b = 0 decision boundary, x = (x1,...,xN), w^Tx + b < 0 class -1, w^Tx + b > 0 class +1
+* Find w
+* Opposed to kNN, I can forget about my training data and only store a few parameters
+  * However, it is linear
+* Maximum margin classifier
+  * gamma^(i) is the distance of the maximum margin
+  * gamma^(i) = y^(i)*(w^Tx^(i)+b)/||w||
+* Problem with outliers and wrongly classified points
+* Add a way to reduce the overfitting effect
+  * Slack variables eps
+  * min 0.5||w||^2+Csum_i=1^n eps_i
+    * subject to: y^(i)(w^Tx^(i)+b)>=1-eps_i
+    * If C is large, the slack variables become small => overfitting
+* SVM tips and tricks
+  * SVMs are not scale invariant
+  * Check if your library normalizes by default
+  * Normalize your data
+    * mean 0, std 1
+    * map to [0,1] or [-1,1]
+  * Normalize test set in the same way! I.e. using the training mean and std
+* Evaluation
+  * True positive rate vs false positive rate (for example!) give ROC-curve
+  * Recall: tp/(tp+fn), Precision: tp/(tp+fp) => Good for unbalanced classes
+    * Both should be close to 1
 
 
 
